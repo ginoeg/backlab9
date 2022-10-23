@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node -r esm src/index.js",
-    "dev": "node --watch -r esm src/index.js"
+    "dev": "node -r esm src/index.js"
   },
   "keywords": [],
   "author": "",

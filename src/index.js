@@ -13,6 +13,5 @@ app.use("/api/product", ProductRouter);
 const PORT = 3000;
 
 app.listen(PORT, () =>
-  console.log(`
-  Server is running! ${PORT}`)
+  console.log(`Server is running! ${PORT}`)
 );
